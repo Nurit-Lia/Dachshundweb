@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*para todas las páginas*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(147, 172, 221, 1) 0%,
+    rgba(9, 117, 121, 0.28895308123249297) 18%,
+    rgba(166, 249, 254, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 2%;
+}
+
+h1 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 300%;
+  font-style: unset;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  align-items: center;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  color: black;
+}
+.navBar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 1000px;
+}
+.navBar label {
+  font-family: "cabin";
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5%;
+}
+
+/*para el INDEX*/
+
+p {
+  align-content: center;
+  text-align: justify;
+  padding-right: 220px;
+  padding-left: 220px;
+  padding-top: 50px;
+  font-size: 120%;
+  font-family: "cabin";
+  line-height: 150%;
+}
+.family {
+  display: grid;
+  justify-content: space-between;
+  padding-top: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.familyCard1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.familyCard2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.familyCard3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.familyCard4 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.familyCard5 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.familyCard6 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  align-items: center;
+}
+.cards img {
+  height: 100px;
+  width: 100px;
+}
+.cards label {
+  font-family: "cabin";
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 10px;
+  width: 120px;
+  padding-top: 5%;
+}
+.cards p {
+  align-content: center;
+  text-align: center;
+  padding-right: 85px;
+  padding-left: 85px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 90%;
+  font-family: "Gill Sans";
+  line-height: 100%;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+}
+
+/*para la página de CARACTERÍSTICAS*/
+
+.caracteristicas {
+  margin: 5%;
+}
+
+h3 {
+  padding: 50px;
+  font-size: 180%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+h4 {
+  font-size: 120%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/*para la página de BLOG*/
+
+.container {
+  background: white;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+}
+
+.section {
+  background: rgb(223, 217, 217);
+  padding: 10%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end:6;
+  font-size: 100%;
+  font-family:"cabin", "Josefin Sans", "sans-serif";
+  line-height: 200%;
+}
+
+.articleNum1 {
+  border: 7px groove gray;
+  text-align: justify;
+  line-height: 115%;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: "cabin", "Josefin Sans", "sans-serif";
+  font: size 130%;
+  font-style: bold;
+  padding: 0;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.articleNum1 h2 {
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: underline;
+  font-size: 200%;
+}
+
+.articleNum1 ul {
+  padding: 0;
+  padding-right:20px;
+  padding-bottom:20px;
+  line-height: 130%;
+}
+
+.articleNum1 p {
+  padding: 0;
+  padding-right:20px;
+  padding-bottom:20px;
+  line-height: 130%;
+  font-size: 100%;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+}
+
+.imgBlogNum1 {
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  float: left;
+}
+
+/*Para los formularios*/
+
+.adopta {
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-left: 250px;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+  line-height: 30px
+ }
+ .adopta input{
+   width: 350px;
+ }
+
+ .adoptaCheck {
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-left: 250px;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+  line-height: 30px;
+ 
+ }
+
+ textarea{
+   width: 350px;
+   height: 200px;
+   padding-left: 15px;
+   padding-top: 5px;
+   color: grey;
+ }
+
+ #enviar{
+   width: 70px;
+   height: 35px;
+   font-family: "cabin", "Josefin Sans", sans-serif;
+   font-size: 120%;
+
+ }
+
+
+ .contacto {
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-left: 250px;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+  line-height: 30px
+ }
+ .contacto input{
+   width: 350px;
+ }
+
+ .motivos {
+  text-align: justify;
+  margin-right: 50px;
+  margin-top: 20px;
+  padding-left: 250px;
+  font-family: "cabin", "Josefin Sans", sans-serif;
+  line-height: 30px;
+ 
+ }
+
+
+/*para TODAS LAS PÁGINAS*/
+
+body {
+  background-color: white;
+}
+
+footer {
+  font-size: 60%;
+  font-style: inherit;
+  font-family: "Segoe UI";
+  padding-top: 1%;
+  padding-left: 5%;
+  margin-top: 20%;
+  background-color: gray;
+}
+.foot img {
+  height: 25px;
+  width: 25px;
+  float: left;
+}
